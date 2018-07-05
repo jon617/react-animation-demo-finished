@@ -45,7 +45,6 @@ class App extends Component {
       inputRange: [ 0, 1 ],
       outputRange: [ '0deg', '360deg' ]
     });
-    console.log( spin );
 
     return (
       <div className="App">
