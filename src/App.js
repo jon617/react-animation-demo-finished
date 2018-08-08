@@ -28,7 +28,7 @@ class App extends Component {
       {
         toValue: 1,  // go from 0 to 1
         duration: 1000,  // milliseconds, so 1000 = 1second
-        easing: Easing.inOut( Easing.quad ),
+        easing: Easing.inOut( Easing.poly(4) ),
         useNativeDriver: true,
       }
     ).start( this.onSpinCompletion )
